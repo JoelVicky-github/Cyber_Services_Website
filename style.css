@@ -1,0 +1,98 @@
+#box {
+    margin:0%;
+    height : 120px;
+    background-color: #f9f9f9;
+    padding: 3px;
+    text-align: center;
+}
+
+
+.content {
+    margin-left : 60px ;
+    margin-right : 60px;
+    text-decoration:none;
+    color: #333;
+    font-weight: bold;
+    transition:3ms;
+    
+}
+
+.content:hover {
+    color: #ff6600;
+}   
+
+.box2 {
+    background-color: #ff6600;
+    color: white;
+    padding: 3px;
+    text-align: center;
+}
+
+.container{
+    display :flex;
+    position :relative;
+    overflow: hidden;
+    margin-top :30px;
+    height :570px;
+    justify-content :center;
+    align-items :center;
+    gap :5%;
+}
+
+.text-box{
+    color :#f9f9f9;
+    border-radius: 5px;
+    background-color :#5C5470;
+    height :420px;
+    flex-basis :300px;
+    width :300px;
+    opacity: 0.9; 
+}  
+
+.text-box:hover {
+    transform: scale(1.20); /* Zoom in slightly on hover */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transitions */
+}
+
+.text-box > p{
+    font-family: 'Teko', sans-serif;
+    font-size :25px;
+    text-align :center;
+    margin :0%;
+}
+
+.text-box ul li{
+    color :#f9f9f9;
+    font-family: 'Oswald', sans-serif;
+    list-style : none;
+    padding : 7px;
+}
+
+.images{
+    border-radius: 5px 5px 0 0;
+    height :150px;
+    width :300px;
+}
+
+.button{
+    
+    padding : 5px;
+    background-color :#ff6600;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+    border : none;
+    border-radius :5px;
+    color :#f2f2f2;
+    margin-left :110px;
+}
+
+ .button1{
+    text-decoration :none;
+    font-style :italic;
+    color :#f2f2f2;
+}
+
+
+.box2 p {
+    font-size: 30px;
+}
